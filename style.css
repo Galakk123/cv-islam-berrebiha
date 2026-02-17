@@ -132,3 +132,9 @@ body {
 .download-btn:hover {
     background: #2563eb;
 }
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
